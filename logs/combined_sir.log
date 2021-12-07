@@ -1,0 +1,28 @@
+run-experiment.sh: line 1: !#/bin/bash: No such file or directory
+2021-12-03 16:31:25 CRITICAL Starting parameter estimation with MAP for 127 observations.
+2021-12-03 16:31:25 CRITICAL Input matrix 0 has dimension (127, 5)
+2021-12-03 16:31:25 CRITICAL Starting parameter estimation with MCMC for 487680 observations.
+2021-12-03 16:31:25 CRITICAL Input matrix 0 has dimension (48, 2)
+2021-12-03 16:31:25 CRITICAL Input matrix 1 has dimension (80, 1)
+2021-12-03 16:31:25 CRITICAL Input matrix 2 has dimension (127, 5)
+2021-12-03 16:31:25 CRITICAL Starting parameter estimation with VI for 10160 observations.
+2021-12-03 16:31:25 CRITICAL Input matrix 0 has dimension (80, 1)
+2021-12-03 16:31:25 CRITICAL Input matrix 1 has dimension (127, 5)
+2021-12-03 16:31:25 CRITICAL Starting parameter estimation with MCMC for 127 observations.
+2021-12-03 16:31:25 CRITICAL Input matrix 0 has dimension (127, 5)
+2021-12-03 16:31:25 CRITICAL Starting parameter estimation with MAP for 10160 observations.
+2021-12-03 16:31:25 CRITICAL Input matrix 0 has dimension (80, 1)
+2021-12-03 16:31:25 CRITICAL Input matrix 1 has dimension (127, 5)
+2021-12-03 16:31:25 CRITICAL Starting parameter estimation with VI for 127 observations.
+2021-12-03 16:31:25 CRITICAL Input matrix 0 has dimension (127, 5)
+2021-12-03 16:31:25 CRITICAL Starting parameter estimation with MAP for 487680 observations.
+2021-12-03 16:31:25 CRITICAL Input matrix 0 has dimension (48, 2)
+2021-12-03 16:31:25 CRITICAL Input matrix 1 has dimension (80, 1)
+2021-12-03 16:31:25 CRITICAL Input matrix 2 has dimension (127, 5)
+2021-12-03 16:31:25 CRITICAL Starting parameter estimation with VI for 487680 observations.
+2021-12-03 16:31:25 CRITICAL Input matrix 0 has dimension (48, 2)
+2021-12-03 16:31:25 CRITICAL Input matrix 1 has dimension (80, 1)
+2021-12-03 16:31:25 CRITICAL Input matrix 2 has dimension (127, 5)
+2021-12-03 16:31:25 CRITICAL Starting parameter estimation with MCMC for 10160 observations.
+2021-12-03 16:31:25 CRITICAL Input matrix 0 has dimension (80, 1)
+2021-12-03 16:31:25 CRITICAL Input matrix 1 has dimension (127, 5)
