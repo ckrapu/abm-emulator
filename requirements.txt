@@ -1,0 +1,8 @@
+arviz
+fire
+gpy
+matplotlib
+mesa
+pymc3
+scipy
+tqdm

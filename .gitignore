@@ -1,0 +1,16 @@
+nohup*
+*.pyc
+__pycache__
+*.csv
+*.pkl
+*.zip
+*.docx
+*.pptx
+
+# Figures
+*.jpg
+*.png
+
+
+# Logs
+*.log
