@@ -6,3 +6,4 @@ mesa
 pymc3
 scipy
 tqdm
+numpy==1.20.3
