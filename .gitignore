@@ -16,3 +16,10 @@ __pycache__
 
 # Logs
 *.log
+python/old/2021-11-28-fast-matrix-vector-product-for-structured-matrices.ipynb
+python/old/2021-04-05-spatial-abm-emulator-backup.ipynb
+python/old/2021-04-05-spatial-abm-emulator.ipynb
+python/old/2021-04-25-flow-based-emulators.ipynb
+python/old/2021-12-27-debugging-numerical-issues-eigensystem-space-time-emulator.ipynb
+python/old/2021-12-01-prototyping-cli.ipynb
+old/normalizing_flows_overview.ipynb
