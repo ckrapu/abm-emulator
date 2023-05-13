@@ -1,11 +1,11 @@
-!#/bin/bash
+#!/bin/bash
 
-data_directory='./data/'
+data_directory='./data/processed-emulator-inputs/'
 figure_directory='./figures/'
 log_directory='./logs/'
 output_directory='./outputs/'
 
-datasets=("sir")
+datasets=("sir" "couzin" "kauffman")
 methods=("vi" "mcmc" "map")
 
 # Valid options are "process", "time+process", "space+time+process"
@@ -22,7 +22,7 @@ for dataset in "${datasets[@]}"
                 log_path=${log_directory}${dataset}_${model_type}_${fit_method}.log
                 out_path=${output_directory}${dataset}_${model_type}_${fit_method}.json
                 rm -f $log_path
-                nohup python code/cli.py fit_model ${data_directory}${dataset}.json $out_path  $model_type $fit_method > $log_path &
+                nohup python src/cli.py fit_model ${data_directory}${dataset}.json $out_path  $model_type $fit_method > $log_path &
             done
         done
     done
