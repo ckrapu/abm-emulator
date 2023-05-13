@@ -8,6 +8,10 @@ __pycache__
 *.pptx
 *.html
 *.ipynb_checkpoints
+abm-venv
+*.DS_Store
+
+
 
 # Figures
 *.jpg
