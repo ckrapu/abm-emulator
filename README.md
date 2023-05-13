@@ -19,14 +19,10 @@ This section explains the usage of the Bash script located at `run-experiments.s
 - The output of the command is redirected to the log file.
 - This loop structure ensures that the fitting process is executed for all combinations of datasets, model types, and fitting methods.
 
-## Conclusion
 The provided Bash script automates the execution of experiments for fitting GP emulators. It loops over different datasets, model types, and fitting methods, and executes the `fit_model` command using the `src/cli.py` script. This script facilitates the efficient execution of multiple experiments with different configurations.
 
 # Emulator models
 This section explains the Python code located at `src/emulators.py`, which provides classes and functions for fitting and predicting with Gaussian Process (GP) emulators.
-
-## Code Overview
-The provided Python code consists of several classes and functions:
 
 ### Class: PyMC3WrapperGP
 - This class serves as a base class for the emulators implemented using PyMC3.
@@ -58,9 +54,6 @@ The provided Python code consists of several classes and functions:
 
 # SIR model
 This section explains the Python code located at `src/abmlib.py`, which implements an agent-based model for infection spread. The model simulates the spread of an infection among agents in a two-dimensional grid.
-
-## Code Overview
-The provided Python code consists of several classes and functions:
 
 ### Class: InfectionModel
 - This class represents the overall infection model.
