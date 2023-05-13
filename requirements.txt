@@ -1,9 +1,10 @@
-arviz
+arviz==0.14.0
 fire
 gpy
 matplotlib
 mesa
+mkl-service
+numpy==1.20.3
 pymc3
 scipy
 tqdm
-numpy==1.20.3
